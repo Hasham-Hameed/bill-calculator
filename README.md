@@ -3,14 +3,10 @@
 A small project that calculates the final price of a purchase after a
 percentage discount — built two ways:
 
-- **`bill_calculator.py`** — the original command-line version
-- **`index.html`** — a receipt-styled web front end for the same logic
+- bill_calculator.py — the original command-line version
+- index.html — a receipt-styled web front end for the same logic
 
-Live demo: **`https://hasham-hameed.github.io/bill-calculator/`**
-*(this link works once you enable GitHub Pages — see below)*
-
-![status](https://img.shields.io/badge/status-active-brightgreen)
-![license](https://img.shields.io/badge/license-MIT-blue)
+Live demo:  https://hasham-hameed.github.io/bill-calculator/
 
 ---
 
@@ -45,14 +41,14 @@ python bill_calculator.py
 
 ## 🗂️ Project structure
 
-```
+
 bill-calculator/
 ├── index.html          # front end (HTML/CSS/JS)
 ├── bill_calculator.py  # command-line version
 ├── README.md
 ├── LICENSE
 └── .gitignore
-```
+
 
 ## 🛠️ Built with
 
