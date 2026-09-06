@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="counter-label">NOW SERVING</div>
+
+  <div class="receipt-wrap">
+    <div class="receipt">
+      <div class="brand">
+        <h1>BILL CALCULATOR</h1>
+        <p>price × quantity, minus your discount</p>
+      </div>
+
+      <hr class="divider">
+
+      <div class="field">
+        <label for="price">Item price <span class="unit">per unit</span></label>
+        <input id="price" type="number" inputmode="decimal" placeholder="0.00" step="0.01" min="0">
+      </div>
+
+      <div class="field">
+        <label for="quantity">Quantity <span class="unit">units</span></label>
+        <input id="quantity" type="number" inputmode="numeric" placeholder="1" step="1" min="0">
+      </div>
+
+      <div class="field">
+        <label for="discount">Discount <span class="unit">%</span></label>
+        <input id="discount" type="number" inputmode="decimal" placeholder="0" step="0.1" min="0" max="100">
+      </div>
+
+      <hr class="divider">
+
+      <div class="lines">
+        <div class="line">
+          <span class="label">Subtotal</span>
+          <span class="value" id="subtotal">0.00</span>
+        </div>
+        <div class="line discount">
+          <span class="label">Discount taken</span>
+          <span class="value" id="discountAmount">−0.00</span>
+        </div>
+      </div>
+
+      <div class="total">
+        <span class="label">TOTAL DUE</span>
+        <span class="value" id="totalDue">0.00</span>
+      </div>
+
+      <div class="stamp"><span>PAID IN FULL</span></div>
+
+      <div class="barcode"></div>
+      <div class="footnote">THANK YOU FOR YOUR PURCHASE<br>keep this receipt for your records</div>
+    </div>
+    <div class="tear-bottom"></div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
