@@ -41,14 +41,14 @@ python bill_calculator.py
 
 ## 🗂️ Project structure
 
-
+```
 bill-calculator/
 ├── index.html          # front end (HTML/CSS/JS)
 ├── bill_calculator.py  # command-line version
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
+```
 
 ## 🛠️ Built with
 
