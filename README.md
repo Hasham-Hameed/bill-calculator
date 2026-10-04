@@ -58,3 +58,7 @@ bill-calculator/
 ## 📄 License
 
 MIT — see [LICENSE](LICENSE).
+
+## Regards
+
+Hasham Hameed
